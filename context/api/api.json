@@ -1,0 +1,180 @@
+{
+  "menu": [
+    {
+      "id":1,
+      "name": "whisky",
+      "path": "whisky"
+    },
+    {
+      "id":2,
+      "name": "ron",
+      "path": "whisky"
+    },
+    {
+      "id":3,
+      "name": "vinos",
+      "path": "vinos"
+    },
+    {
+      "id":4,
+      "name": "destilados",
+      "path": "destilados"
+    },
+    {
+      "id":5,
+      "name": "licores",
+      "path": "licores"
+    },
+    {
+      "id":6,
+      "name": "otros",
+      "path": "otros"
+    },
+    {
+      "id":7,
+      "name": "ofertas",
+      "path": "ofertas"
+    }
+  ],
+  "bebidas":[
+    {
+      "id": 1,
+      "nombre": "santa teresa linaje",
+      "precio": "99,99",
+      "imgUrl": "http://localhost:3000/static/santa_teresa_linaje.png",
+      "origen": "escocia",
+      "precio_original": "199,99",
+      "medida": "0,75 Lts",
+      "categoria": {
+        "id": 2,
+        "nombre": "ron"
+      }
+    },
+    {
+      "id": 2,
+      "nombre": "buchanan's deluxe 12 años",
+      "precio": "99,99",
+      "imgUrl": "http://localhost:3000/static/buchanan_deluxe_12.png",
+      "origen": "escocia",
+      "precio_original": "199,99",
+      "medida": "0,75 Lts",
+      "categoria": {
+        "id": 1,
+        "nombre": "whisky"
+      }
+    },
+   {
+      "id": 3,
+      "nombre": "finca las moras malbec",
+      "precio": "99,99",
+      "imgUrl": "http://localhost:3000/static/finca_las_moras.png",
+      "origen": "argentina",
+      "precio_original": "199,99",
+      "medida": "0,75 Lts",
+      "categoria": {
+        "id": 3,
+        "nombre": "vinos"
+      }
+    },
+    {
+      "id": 4,
+      "nombre": "Black Label Limited Edition 12 años",
+      "precio": "99,99",
+      "imgUrl": "http://localhost:3000/static/black_label.png",
+      "origen": "escocia",
+      "precio_original": "199,99",
+      "medida": "0,75 Lts",
+      "categoria": {
+        "id": 1,
+        "nombre": "whisky"
+      }
+    },
+    {
+      "id": 5,
+      "nombre": "Black Label Limited Edition 18 años",
+      "precio": "99,99",
+      "imgUrl": "http://localhost:3000/static/black_label.png",
+      "origen": "escocia",
+      "precio_original": "199,99",
+      "medida": "0,75 Lts",
+      "categoria": {
+        "id": 1,
+        "nombre": "whisky"
+      }
+    },
+    {
+      "id": 6,
+      "nombre": "buchanan's deluxe 18 años",
+      "precio": "99,99",
+      "imgUrl": "http://localhost:3000/static/buchanan_deluxe_12.png",
+      "origen": "escocia",
+      "precio_original": "199,99",
+      "medida": "0,75 Lts",
+      "categoria": {
+        "id": 1,
+        "nombre": "whisky"
+      }
+    },
+    {
+      "id": 7,
+      "nombre": "Casique 500",
+      "precio": "99,99",
+      "imgUrl": "http://localhost:3000/static/casique_500.png",
+      "origen": "venezuela",
+      "precio_original": "199,99",
+      "medida": "0,75 Lts",
+      "categoria": {
+        "id": 2,
+        "nombre": "ron"
+      }
+    },
+    {
+      "id": 8,
+      "nombre": "Grey Goose",
+      "precio": "99,99",
+      "imgUrl": "http://localhost:3000/static/grey_goose.png",
+      "origen": "francia",
+      "precio_original": "199,99",
+      "medida": "1 Lts",
+      "categoria": {
+        "id": 4,
+        "nombre": "licores"
+      }
+    },
+      {
+      "id": 9,
+      "nombre": "La Española",
+      "precio": "99,99",
+      "imgUrl": "http://localhost:3000/static/la_espanola.png",
+      "origen": "venezuela",
+      "precio_original": "199,99",
+      "medida": "1 Lts",
+      "categoria": {
+        "id": 5,
+        "nombre": "otros"
+      }
+    }
+  ],
+   "categorias": [
+    {
+      "id": 1,
+      "nombre": "whisky"
+    },
+     {
+      "id": 2,
+      "nombre": "ron"
+    },
+   {
+      "id": 3,
+      "nombre": "vinos"
+    },
+     {
+      "id": 4,
+      "nombre": "licores"
+    },
+     {
+      "id": 5,
+      "nombre": "otros"
+    }
+  ]
+}
