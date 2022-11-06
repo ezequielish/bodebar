@@ -10,7 +10,9 @@ function Products() {
   const [bebidas, setBebidas] = useState(Api.bebidas);
 
   const handleClickCategory = (indx) => {
-    const elementsLi = document.querySelectorAll('.li-category');
+    const elementsLi = document.querySelectorAll(
+      '.li-category'
+    ) as unknown as NodeListOf<HTMLElement> | null;
     const elementLi = elementsLi[indx];
     if (elementLi.className.split(' ').includes('active')) {
       return setBebidas(Api.bebidas);

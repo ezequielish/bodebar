@@ -26,12 +26,12 @@ function Producto() {
         })
       );
     }
-  }, []);
+  }, [bebidas.length]);
 
   useEffect(() => {
     // eslint-disable-next-line no-prototype-builtins
     if (router.query.hasOwnProperty('nombre')) {
-      const path = router.query.nombre.replace(/-/g, ' ');
+      const path = (router.query.nombre as string).replace(/-/g, ' ');
 
       setNombre(path.split('_')[0]);
 
@@ -64,7 +64,7 @@ function Producto() {
       .querySelector(`#text-item-${ev.target.dataset.item}`)
       .classList.remove('hidden');
   };
-  
+
   return (
     <div className="min-h-screen w-screen bg-white flex dark:bg-black flex-col">
       <Heeader />
