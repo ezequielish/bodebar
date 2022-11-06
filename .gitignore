@@ -38,3 +38,6 @@ sentry.properties
 # Cypress
 
 cypress/videos
+
+# Sentry
+.sentryclirc
