@@ -10,7 +10,7 @@ const moduleExports = {
   swcMinify: true,
   reactStrictMode: true,
   images: {
-    domains: ['localhost'],
+    domains: ['bodebar.vercel.app'],
   },
 };
 
