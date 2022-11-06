@@ -29,15 +29,8 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
-# Sentry
-sentry.properties
-
-# Sentry
-.sentryclirc
 
 # Cypress
 
 cypress/videos
 
-# Sentry
-.sentryclirc

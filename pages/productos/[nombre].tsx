@@ -56,10 +56,6 @@ function Producto() {
       .querySelector(`#menu-item-${ev.target.dataset.item}`)
       .classList.add('active-menu-product');
 
-    console.log({
-      dd: document.querySelector(`#text-item-${ev.target.dataset.item}`),
-    });
-
     document
       .querySelector(`#text-item-${ev.target.dataset.item}`)
       .classList.remove('hidden');
